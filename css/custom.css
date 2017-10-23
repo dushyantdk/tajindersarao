@@ -998,6 +998,10 @@ footer{
     z-index: 99;
 }
 
+.propertylisting-panel{
+    display: none;
+}
+
 @media only screen  and (max-width : 1224px) {
   .navbar-light .navbar-nav .nav-link {
     font-size: 14px;

@@ -134,7 +134,7 @@ include(__DIR__.'/include/header.php');?>
 							<li class=""><i class="fa fa-bed"></i>2 Br</li>
 							<li class=""><i class="fa fa-wheelchair"></i>2 Ba</li>
 							<li class=""><i class="fa fa-compress"></i>560 Sq</li>
-						/ul>
+						</ul>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
