@@ -67,7 +67,46 @@ include(__DIR__.'/include/header.php');?>
 							</form>
 
 						  </div>
-						  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+						  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+						  	
+						  		<form>
+							  <div class="form-row">
+							    <div class="form-group col-md-5">
+							      <input type="email" class="form-control" id="inputEmail4" placeholder="type city name here">
+							    </div>
+							    <div class="form-group col-md-3">
+							      <select class="selectpicker">
+									  <option>Select City</option>
+								  </select>
+								</div>
+							    <div class="form-group col-md-4">
+							      <select class="selectpicker">
+									  <option>Residential, Condominium, Commerical</option>
+								  </select>
+							    </div>
+							  </div>
+							  <div class="form-row">
+							  	<div class="form-group col-md-2">
+							      <select class="selectpicker">
+									  <option>min Baths</option>
+								  </select>
+								</div>
+								<div class="form-group col-md-2">
+							      <select class="selectpicker">
+									  <option>min Beds</option>
+								  </select>
+								</div>
+								<div class="form-group col-md-5">
+								  <p>Price range: <span>€ 100 to 15,000, 000</span></p>	
+							      <input id="ex2" type="text" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"/>
+								</div>
+								<div class="form-group col-md-3">
+							      <button type="submit" class="btn btn-primary">Sign in</button>
+								</div>
+							  </div>
+							  
+							</form>
+						  </div>
 						</div>
 					</div>
 					</div>

@@ -37,7 +37,7 @@
          <div class="container">
             <div class="row">
                <div class="col-xl-4 col-md-4 col-lg-4 col-sm-12">
-                  <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"/></a>
+                  <a class="navbar-brand" href="index.php"><img src="images/logo.png" alt="logo"/></a>
                </div>
                <div class="col-xl-8 col-md-8 col-lg-8 col-sm-12 d-flex align-items-center justify-content-end topnav-right">
                   <ul>

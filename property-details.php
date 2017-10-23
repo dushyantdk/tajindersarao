@@ -12,65 +12,107 @@ include(__DIR__.'/include/header.php');?>
          </div>
       </section>
       <!-- Inner banner End -->
-      <!-- Form Start -->
-      <section class="search-panel">
-         <div class="container">
-            <div class="row">
-               <div class="col-xl-12">
-                  <ul class="nav nav-tabs" id="myTab" role="tablist">
-                     <li class="nav-item">
-                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-expanded="true">BUY</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile">SELL</a>
-                     </li>
-                  </ul>
-                  <div class="tab-content" id="myTabContent">
-                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                        <form>
-                           <div class="form-row">
-                              <div class="form-group col-md-5">
-                                 <input type="email" class="form-control" id="inputEmail4" placeholder="type city name here">
-                              </div>
-                              <div class="form-group col-md-3">
-                                 <select class="selectpicker">
-                                    <option>Select City</option>
-                                 </select>
-                              </div>
-                              <div class="form-group col-md-4">
-                                 <select class="selectpicker">
-                                    <option>Residential, Condominium, Commerical</option>
-                                 </select>
-                              </div>
-                           </div>
-                           <div class="form-row">
-                              <div class="form-group col-md-2">
-                                 <select class="selectpicker">
-                                    <option>min Baths</option>
-                                 </select>
-                              </div>
-                              <div class="form-group col-md-2">
-                                 <select class="selectpicker">
-                                    <option>min Beds</option>
-                                 </select>
-                              </div>
-                              <div class="form-group col-md-5">
-                                 <p>Price range: <span>€ 100 to 15,000, 000</span></p>
-                                 <input id="ex2" type="text" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"/>
-                              </div>
-                              <div class="form-group col-md-3">
-                                 <button type="submit" class="btn btn-primary">Sign in</button>
-                              </div>
-                           </div>
-                        </form>
-                     </div>
-                     <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+<!-- Form Start -->
+  <section class="search-panel">
+        <div class="container">
+          <div class="row">
+          <div class="col-xl-12">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-expanded="true">BUY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile">SELL</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                
+                <form>
+                <div class="form-row">
+                  <div class="form-group col-md-5">
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="type city name here">
                   </div>
-               </div>
+                  <div class="form-group col-md-3">
+                    <select class="selectpicker">
+                    <option>Select City</option>
+                  </select>
+                </div>
+                  <div class="form-group col-md-4">
+                    <select class="selectpicker">
+                    <option>Residential, Condominium, Commerical</option>
+                  </select>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-2">
+                    <select class="selectpicker">
+                    <option>min Baths</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-2">
+                    <select class="selectpicker">
+                    <option>min Beds</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-5">
+                  <p>Price range: <span>€ 100 to 15,000, 000</span></p> 
+                    <input id="ex2" type="text" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"/>
+                </div>
+                <div class="form-group col-md-3">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+                </div>
+                
+              </form>
+
+              </div>
+              <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                
+                  <form>
+                <div class="form-row">
+                  <div class="form-group col-md-5">
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="type city name here">
+                  </div>
+                  <div class="form-group col-md-3">
+                    <select class="selectpicker">
+                    <option>Select City</option>
+                  </select>
+                </div>
+                  <div class="form-group col-md-4">
+                    <select class="selectpicker">
+                    <option>Residential, Condominium, Commerical</option>
+                  </select>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-2">
+                    <select class="selectpicker">
+                    <option>min Baths</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-2">
+                    <select class="selectpicker">
+                    <option>min Beds</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-5">
+                  <p>Price range: <span>€ 100 to 15,000, 000</span></p> 
+                    <input id="ex2" type="text" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"/>
+                </div>
+                <div class="form-group col-md-3">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+                </div>
+                
+              </form>
+              </div>
             </div>
-         </div>
-      </section>
-      <!-- Form End -->
+          </div>
+          </div>
+        </div>
+  </section>
+<!-- Form End -->
       <!-- PROPERTY DETAIL PANEL START -->
       <section class="property-detail-panel">
          <div class="container">
