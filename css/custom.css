@@ -220,7 +220,6 @@ nav.navbar {
   width:100%;
   float:left;
   padding:40px 0 80px;
-  display: none;
 }
 
 
@@ -460,6 +459,7 @@ footer{
   background:#181818;
   padding:40px 0;
   color:#fff;
+  display: none;
 }
 
 .footer-address{
