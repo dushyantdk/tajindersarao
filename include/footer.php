@@ -17,18 +17,59 @@
 	</div>
 </footer>
 <!-- Footer END -->
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <!-- Include all compiled plugins (below), or include individual files as needed -->
       <script src="js/popper.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="http://code.jquery.com/ui/1.10.2/jquery-ui.js" ></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
       <script src="js/bootstrap-select.js"></script>
       <script src="js/bootstrap-slider.js"></script>
+      <script src="js/bootstrap-datetimepicker.min.js"></script>
       <script type="text/javascript">
-      	$("#ex2").slider({});
-      	$('#myCarousel').carousel({
+         $("#ex2").slider({});
+         $('#myCarousel').carousel({
   interval: 3000
-})
+})    
+
+$(function () {
+
+    $(".property-gridview").hide();
+    
+    $(".listview, .grideview").bind("click", function () {
+
+      $(".property-gridview").hide();        
+        
+      if ($(this).attr("class") == "listview")
+      {
+        $(".property-gridview").show();
+      }
+      else 
+      { 
+        $(".property-listview").show();
+      }
+    });
+
+});
+         
+</script>
+<script type="text/javascript">
+$(document).ready(function () {
+    if ($('#datetimepicker').length) {
+        $('#datetimepicker').datetimepicker({
+            viewMode: 'days',
+            minDate: 0,
+            minDate: new Date(),
+            format: 'YYYY-MM-DD'
+        });
+    }
+    if ($('#datetimepickertime').length) {
+        $('#datetimepickertime').datetimepicker({
+            format: 'LT'
+        });
+    }
+});
 </script>
    </body>
 </html>

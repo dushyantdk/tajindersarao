@@ -1,95 +1,5 @@
-
-
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,target-densitydpi=device-dpi, user-scalable=no" />
-      <meta name="keywords" content="industrial parts; bearings; power transmission; conveyor belting; motion control; gears; motors; adhesives; fluid power; industrial mill supplies  >
-      <meta name="description" content="Canadian Bearings Ltd. is Canada's leading distributor of bearings, power transmission, motion control, belting and conveyor components.>
-         <meta name="author" content="Canadian Bearings Ltd.">
-      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-      <title>tajindersarao</title>
-      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="96x96" href="./images/favicon-96x96.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
-      <!-- Bootstrap -->
-      <link href="css/bootstrap.min.css" rel="stylesheet">
-      <!-- Google fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-      <!-- Reset -->
-      <link href="css/reset.css" rel="stylesheet">
-      <!-- Custom -->
-      <link href="css/custom.css" rel="stylesheet">
-      <link href="css/bootstrap-select.min.css" rel="stylesheet">
-      <link href="css/bootstrap-slider.css" rel="stylesheet">
-      <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
-      <link href="css/font-awesome.min.css" rel="stylesheet">
-      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-      <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-      <![endif]-->
-   </head>
-   <body>
-      <!-- Navigation start -->
-      <div class="top-navbar">
-         <div class="container">
-            <div class="row">
-               <div class="col-xl-4 col-md-4 col-lg-4 col-sm-12">
-                  <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"/></a>
-               </div>
-               <div class="col-xl-8 col-md-8 col-lg-8 col-sm-12 d-flex align-items-center justify-content-end topnav-right">
-                  <ul>
-                     <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>tssarao@gmail.com</a></li>
-                     <li><i class="fa fa-phone" aria-hidden="true"></i>(647) 206-7222 /(905) 672-2200</li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-      </div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-         <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-               <ul class="navbar-nav">
-                  <li class="nav-item">
-                     <a class="nav-link active" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#">Property Search</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#">Buying</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#">Selling</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#">About me</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#">Mortgage Hub</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#">Calculators</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#">Helpful Information</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#">Contact</a>
-                  </li>
-               </ul>
-            </div>
-         </div>
-      </nav>
-      <!-- Navigation End -->
+<?php 
+include(__DIR__.'/include/header.php');?>
       <!-- Inner banner Start -->
       <section class="inner-banner d-flex align-items-center text-center">
          <div class="container">
@@ -175,28 +85,28 @@
                     <!-- main slider carousel items -->
                     <div class="carousel-inner">
                         <div class="active item carousel-item" data-slide-number="0">
-                            <img src="http://placehold.it/1200x480&amp;text=one" class="img-fluid">
+                            <img src="images/property.png" class="img-fluid">
                         </div>
                         <div class="item carousel-item" data-slide-number="1">
-                            <img src="http://placehold.it/1200x480/888/FFF" class="img-fluid">
+                           <img src="images/property.png" class="img-fluid">
                         </div>
                         <div class="item carousel-item" data-slide-number="2">
-                            <img src="http://placehold.it/1200x480&amp;text=three" class="img-fluid">
+                             <img src="images/property.png" class="img-fluid">
                         </div>
                         <div class="item carousel-item" data-slide-number="3">
-                            <img src="http://placehold.it/1200x480&amp;text=four" class="img-fluid">
+                             <img src="images/property.png" class="img-fluid">
                         </div>
                         <div class="item carousel-item" data-slide-number="4">
-                            <img src="http://placehold.it/1200x480&amp;text=five" class="img-fluid">
+                             <img src="images/property.png" class="img-fluid">
                         </div>
                         <div class="item carousel-item" data-slide-number="5">
-                            <img src="http://placehold.it/1200x480&amp;text=six" class="img-fluid">
+                            <img src="images/property.png" class="img-fluid">
                         </div>
                         <div class="item carousel-item" data-slide-number="6">
-                            <img src="http://placehold.it/1200x480&amp;text=seven" class="img-fluid">
+                            <img src="images/property.png" class="img-fluid">
                         </div>
                         <div class="item carousel-item" data-slide-number="7">
-                            <img src="http://placehold.it/1200x480&amp;text=eight" class="img-fluid">
+                             <img src="images/property.png" class="img-fluid">
                         </div>
 
                         
@@ -208,42 +118,42 @@
                     <ul class="carousel-indicators list-inline">
                         <li class="list-inline-item active">
                             <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#myCarousel">
-                                <img src="http://placehold.it/80x60&amp;text=one" class="img-fluid">
+                                <img src="images/property-ul.jpg" class="img-fluid">
                             </a>
                         </li>
                         <li class="list-inline-item">
                             <a id="carousel-selector-1" data-slide-to="1" data-target="#myCarousel">
-                                <img src="http://placehold.it/80x60&amp;text=two" class="img-fluid">
+                                <img src="images/property-ul.jpg" class="img-fluid">
                             </a>
                         </li>
                         <li class="list-inline-item">
                             <a id="carousel-selector-2" data-slide-to="2" data-target="#myCarousel">
-                                <img src="http://placehold.it/80x60&amp;text=three" class="img-fluid">
+                                <img src="images/property-ul.jpg" class="img-fluid">
                             </a>
                         </li>
                         <li class="list-inline-item">
                             <a id="carousel-selector-3" data-slide-to="3" data-target="#myCarousel">
-                                <img src="http://placehold.it/80x60&amp;text=four" class="img-fluid">
+                               <img src="images/property-ul.jpg" class="img-fluid">
                             </a>
                         </li>
                         <li class="list-inline-item">
                             <a id="carousel-selector-4" data-slide-to="4" data-target="#myCarousel">
-                                <img src="http://placehold.it/80x60&amp;text=five" class="img-fluid">
+                                <img src="images/property-ul.jpg" class="img-fluid">
                             </a>
                         </li>
                         <li class="list-inline-item">
                             <a id="carousel-selector-5" data-slide-to="5" data-target="#myCarousel">
-                                <img src="http://placehold.it/80x60&amp;text=six" class="img-fluid">
+                               <img src="images/property-ul.jpg" class="img-fluid">
                             </a>
                         </li>
                         <li class="list-inline-item">
                             <a id="carousel-selector-6" data-slide-to="6" data-target="#myCarousel">
-                                <img src="http://placehold.it/80x60&amp;text=seven" class="img-fluid">
+                               <img src="images/property-ul.jpg" class="img-fluid">
                             </a>
                         </li>
                         <li class="list-inline-item">
                             <a id="carousel-selector-7" data-slide-to="7" data-target="#myCarousel">
-                                <img src="http://placehold.it/80x60&amp;text=eight" class="img-fluid">
+                                <img src="images/property-ul.jpg" class="img-fluid">
                             </a>
                         </li>
                     </ul>
@@ -252,7 +162,7 @@
             </div>
 				</div>
                </div>
-               <div class="col-sm-3">
+               <div class="col-lg-3 col-sm-12">
                		<div class="property-feature">
                			<h2>Featured<span>$50,000</span></h2>
                			<ul>
@@ -548,14 +458,25 @@
                   <input type="text" class="form-control" placeholder="Phone">
                 </div>
               </div>
+               <div class="form-group text-event">
+                
+            </div>
               <div class="form-row">
                 <div class="col">
-                   <div class="input-group date">
-      <input type="text" class="form-control" id="datepicker" placeholder="MM/DD/YYYY">
-  </div>
+                    <div class='input-group date' id='datetimepicker'>
+                    <input type='text' class="form-control" id='event_date' placeholder="Event date" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
                 </div>
                 <div class="col">
-                  <input type="text" class="form-control" placeholder="Select time">
+                  <div class="input-group date" id="datetimepickertime">
+                    <input class="form-control" type="text" id='event_time' placeholder="Event time" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-time"></span>
+                    </span>
+                </div>
                 </div>
               </div>
               <div class="form-row">
@@ -570,55 +491,6 @@
          </div>
       </section>
    <!-- Query section End -->
-   <!-- Footer START -->
-      <footer>
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-5">
-                  <div class="footer-address">
-                     <h3>Tajinder Sarao</h3>
-                     <p>Sales Representative</p>
-                     <p>CENTURY 21 LEGACY LTD., BROKERAGE</p>
-                     <p> 7420-B Bramalea Road, Mississauga, Ontario, L5S 1W9</p>
-                     <p class="i"><span>e</span><a href="mailto:tssarao@gmail.com">tssarao@gmail.com</a></p>
-                     <p class="i"><span>m</span><a href="tel:6472067222">(647) 206-7222</a></p>
-                     <p class="i"><span>o</span><a href="tel:9056722200">(905) 672-2200</a></p>
-                  </div>
-               </div>
-               <div class="col-sm-7">
-                  <nav class="footer-nav">
-                     <h3>Useful Links</h3>
-                     <ul>
-                        <li><a href="home">›&nbsp;&nbsp;Home</a></li>
-                        <li><a href="property-search">›&nbsp;&nbsp;Property Search</a></li>
-                        <li><a href="about-me">›&nbsp;&nbsp;About Me</a></li>
-                        <li><a href="real-estate-news">›&nbsp;&nbsp;Real Estate News</a></li>
-                        <li><a href="contact">›&nbsp;&nbsp;Contact</a></li>
-                        <li><a href="blog">›&nbsp;&nbsp;Blog</a></li>
-                     </ul>
-                  </nav>
-               </div>
-            </div>
-         </div>
-      </footer>
-   <!-- Footer END -->
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <!-- Include all compiled plugins (below), or include individual files as needed -->
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/moment.js"></script>
-      <script src="js/bootstrap-select.js"></script>
-      <script src="js/bootstrap-slider.js"></script>
-      <script src="js/bootstrap-datetimepicker.min.js"></script>
-      <script type="text/javascript">
-         $("#ex2").slider({});
-         $('#myCarousel').carousel({
-  interval: 3000
-})
-
-$('#datepicker').datepicker();         
-</script>
-   </body>
-</html>
+   <?php 
+include(__DIR__.'/include/footer.php');?>
 

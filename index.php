@@ -1,4 +1,5 @@
-<?php include('header.php');?>
+<?php 
+include(__DIR__.'/include/header.php');?>
 <!-- Slider Start -->
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 		    <!-- Indicators -->
@@ -374,5 +375,6 @@
 </section>
 <!-- PRE PROPERTY END -->
 <!-- Footer START -->
-
+<?php 
+include(__DIR__.'/include/footer.php');?>
 

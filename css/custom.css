@@ -682,6 +682,7 @@ footer{
     width: 120px;
 }
 
+
 .properties_details{
   width:100%;
   float: left;
@@ -898,12 +899,14 @@ footer{
     margin-left: initial;
     overflow: hidden;
     margin:0 auto;
+    width: 92%;
 }
 
 #myCarousel .carousel-indicators > li {
     width: initial;
     height: initial;
     text-indent: initial;
+    margin: 0 !important;
 }
 
 #myCarousel .carousel-indicators > li.active img {
@@ -914,16 +917,39 @@ footer{
     margin-bottom: 15px;
 }
 
-.property-slides .carousel-control.right{
-    bottom: 21px;
+
+
+.property-slides .carousel-control.right {
+    background: #f5f5f5 none repeat scroll 0 0;
+    bottom: 6px;
+    height: 102px;
+    padding: 0;
     position: absolute;
+    width: 23px;
     right: 0;
 }
 
+.property-slides .carousel-control.right i {
+    padding-left: 5px;
+    padding-top: 25px;
+    text-align: center;
+    vertical-align: middle;
+}
+
 .property-slides .carousel-control.left {
-    bottom: 21px;
+    background: #f5f5f5 none repeat scroll 0 0;
+    bottom: 6px;
+    height: 102px;
     padding: 0;
     position: absolute;
+    width: 23px;
+}
+
+.property-slides .carousel-control.left i {
+    padding-left: 5px;
+    padding-top: 25px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .querypanel-form{
@@ -953,6 +979,21 @@ footer{
     border: medium none;
     min-width: 250px;
     padding: 15px 0;
+}
+
+.querypanel-form .input-group-addon {
+    left: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.querypanel-form .input-group-addon span {
+    float: left;
+    height: 35px;
+    opacity: 0;
+    width: 100%;
+    z-index: 99;
 }
 
 @media only screen  and (max-width : 1224px) {
@@ -1012,6 +1053,13 @@ footer{
   .properties_details .text {
     margin-top: 30px;
   }
+
+  .navbar .navbar-toggler{
+    border: medium none !important;
+    margin: 5px 0 !important;
+    padding-left: 0 !important;
+}
+
 }
 @media only screen  and (max-width : 767px) {
   .listing-search > ul::after {
