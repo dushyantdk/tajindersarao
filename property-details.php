@@ -116,6 +116,10 @@ include(__DIR__.'/include/header.php');?>
 
 
                     <ul class="carousel-indicators list-inline">
+                      <li class="d-flex align-items-center">
+                        
+                    <a class="carousel-control left pt-3" href="#myCarousel" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+                      </li>
                         <li class="list-inline-item active">
                             <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#myCarousel">
                                 <img src="images/property-ul.jpg" class="img-fluid">
@@ -156,9 +160,11 @@ include(__DIR__.'/include/header.php');?>
                                 <img src="images/property-ul.jpg" class="img-fluid">
                             </a>
                         </li>
+                        <li class="d-flex align-items-center">
+                           <a class="carousel-control right pt-3" href="#myCarousel" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+                        </li>
                     </ul>
-                    <a class="carousel-control left pt-3" href="#myCarousel" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
-                        <a class="carousel-control right pt-3" href="#myCarousel" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+                       
             </div>
 				</div>
                </div>
