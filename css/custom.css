@@ -220,6 +220,7 @@ nav.navbar {
   width:100%;
   float:left;
   padding:40px 0 80px;
+  display: none;
 }
 
 
