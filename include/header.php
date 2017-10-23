@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
-      <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,target-densitydpi=device-dpi, user-scalable=no" />
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
       <meta name="keywords" content="industrial parts; bearings; power transmission; conveyor belting; motion control; gears; motors; adhesives; fluid power; industrial mill supplies  >
       <meta name="description" content="Canadian Bearings Ltd. is Canada's leading distributor of bearings, power transmission, motion control, belting and conveyor components.>
          <meta name="author" content="Canadian Bearings Ltd.">
