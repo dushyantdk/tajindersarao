@@ -4,6 +4,7 @@ body{
 	font-family: 'Roboto', sans-serif;
   line-height: 28px;
   border: 2px solid red;
+  overflow: hidden;
 }
 
 .btn{
