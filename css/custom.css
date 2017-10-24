@@ -12,6 +12,11 @@ body{
 
 a:hover{opacity: 0.9; text-decoration: none;}
 
+.btn.btn-primary{
+    background:#f46344;
+    border-color: #f46344;
+}
+
 .top-navbar{
   background:#393939;
   width: 100%;
@@ -939,7 +944,7 @@ footer{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-color: #000;
+  background-image:url("../images/query-bg.jpg");
 }
 
 .querypanel-form h2{
@@ -976,6 +981,50 @@ footer{
     z-index: 99;
 }
 
+.inner-content{
+    width: 100%;
+    float: left;
+    padding:30px 0; 
+}
+
+.contact-map {
+    float: left;
+    margin-top: 50px;
+    padding: 0;
+    width: 100%;
+}
+
+address {
+    text-align: center;
+}
+
+address img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.block_title h4::before {
+    background: #f4762a none repeat scroll 0 0;
+    bottom: -1px;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+}
+
+.block_title{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.block_title h4 {
+    border-bottom: 1px solid #e5e3e3;
+    padding: 7px 0 9px;
+    position: relative;
+}
 
 @media only screen  and (max-width : 1224px) {
   .navbar-light .navbar-nav .nav-link {

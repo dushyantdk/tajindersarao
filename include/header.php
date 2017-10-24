@@ -62,8 +62,13 @@
 			      <li class="nav-item">
 			        <a class="nav-link" href="property-listing.php">Property Search</a>
 			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">Buying</a>
+			      <li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Buying</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="buyer-guide.php">Buyer Guide</a>
+                <a class="dropdown-item" href="buyer-guide.php">First Time Buyer</a>
+                <a class="dropdown-item" href="buyer-guide.php">RRSP Home Buyer's plan</a>
+              </div>
 			      </li>
 			      <li class="nav-item">
 			        <a class="nav-link" href="#">Selling</a>
@@ -81,7 +86,7 @@
 			        <a class="nav-link" href="#">Helpful Information</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="#">Contact</a>
+			        <a class="nav-link" href="contact.php">Contact</a>
 			      </li>
 			    </ul>
 			  </div>
