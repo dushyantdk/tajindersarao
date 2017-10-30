@@ -371,6 +371,7 @@ nav.navbar {
     float: left;
     padding: 50px 0 0;
     width: 100%;
+    color:#fff;
 }
 
 .property-tool-panel .panel-title::before {
@@ -1025,6 +1026,24 @@ address img {
     padding: 7px 0 9px;
     position: relative;
 }
+
+.let-find-home h4{
+    margin-top: 50px;
+}
+
+.inner-content ul{
+    list-style-type: circle !important;
+    margin-left: 20px;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+form.owner-detail {
+    border: 1px solid #ddd;
+}
+
 
 @media only screen  and (max-width : 1224px) {
   .navbar-light .navbar-nav .nav-link {

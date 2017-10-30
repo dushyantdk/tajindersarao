@@ -18,7 +18,7 @@
 <section class="inner-content">
    <div class="container">
       <div class="row">
-         <div class="col-xl-12">
+         <div class="col-xl-12 text-center">
             <p>As your personal guide and trustworthy agent, I strive to give you the best of the best. In the years that I’ve spent in the industry, homebuyers have always asked me “What do I need to do when I buy a house?”. I’ve composed a step-by-step guide that organizes the buying process to make buying a house simple and fun!</p>
          </div>
          <div class="col-xl-6 col-sm-6">

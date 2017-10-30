@@ -26,6 +26,7 @@ include(__DIR__.'/include/header.php');?>
 				<div class="block_title">
 					<h4>Search for Homes Like a REALTOR®</h4>
 				</div>
+                <form>
                         <div class="form-group">
                             <label for="name">
                                 First Name</label>
@@ -53,9 +54,9 @@ include(__DIR__.'/include/header.php');?>
                                 Message</label>
                             <textarea name="message" id="message" class="form-control" rows="5" cols="25" required="required" placeholder="Message"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
-                            Send Message</button>
-                    </div>
+                        <button type="submit" class="btn btn-primary pull-right" id="">Send Message</button>
+
+            </div>
 		</div>
 	</div>
 </section>

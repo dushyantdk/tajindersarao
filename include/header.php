@@ -66,19 +66,34 @@
 			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Buying</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="buyer-guide.php">Buyer Guide</a>
-                <a class="dropdown-item" href="buyer-guide.php">First Time Buyer</a>
-                <a class="dropdown-item" href="buyer-guide.php">RRSP Home Buyer's plan</a>
+                <a class="dropdown-item" href="first-time-buyers.php">First Time Buyer</a>
+                <a class="dropdown-item" href="rrsp-home-buyers-plan.php">RRSP Home Buyer's plan</a>
+                <a class="dropdown-item" href="land-transfer-tax-rebates.php">Land Transfer Tax Rebates</a>
+                <a class="dropdown-item" href="find-your-dream-home.php">Find Your Dream Home</a>
+                <a class="dropdown-item" href="hst-new-housing-rebate.php">HST New Housing Rebate</a>
               </div>
 			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">Selling</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">About me</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">Mortgage Hub</a>
-			      </li>
+			      <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Selling</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="seller-guide.php">Seller Guide</a>
+                <a class="dropdown-item" href="free-home-evaluations.php">Free Home Evaluations</a>
+                <a class="dropdown-item" href="area-alert.php">Area Alert</a>
+              </div>
+            </li>
+			      <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Me</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="about.php">About Me</a>
+                <a class="dropdown-item" href="testimonial.php">Testimonial</a>
+              </div>
+            </li>
+			      <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mortgage Hub</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="mortgage-hub.php">Mortgage Hub</a>
+              </div>
+            </li>
 			      <li class="nav-item">
 			        <a class="nav-link" href="#">Calculators</a>
 			      </li>
