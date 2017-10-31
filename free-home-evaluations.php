@@ -49,7 +49,7 @@ include(__DIR__.'/include/header.php');?>
                </div>
                <div class="form-group col-md-3">
                   <label>Style</label>
-                  <select class="form-control">
+                  <select class="selectpicker">
                     <option>Choose...</option>
                     <option>...</option>
                   </select>
@@ -62,28 +62,28 @@ include(__DIR__.'/include/header.php');?>
               <div class="form-row">
                <div class="form-group col-md-3">
                   <label>Size</label>
-                  <select class="form-control">
+                  <select class="selectpicker">
                     <option>Choose...</option>
                     <option>...</option>
                   </select>
                </div>
                <div class="form-group col-md-3">
                   <label>Bedrooms</label>
-                  <select class="form-control">
+                  <select class="selectpicker">
                     <option>Choose...</option>
                     <option>...</option>
                   </select>
                </div>
                <div class="form-group col-md-3">
                   <label>Bathrooms</label>
-                  <select class="form-control">
+                  <select class="selectpicker">
                     <option>Choose...</option>
                     <option>...</option>
                   </select>
                </div>
                <div class="form-group col-md-3">
                   <label>Has Suite</label>
-                  <select class="form-control">
+                  <select class="selectpicker">
                     <option>Choose...</option>
                     <option>...</option>
                   </select>
@@ -92,28 +92,28 @@ include(__DIR__.'/include/header.php');?>
               <div class="form-row">
                <div class="form-group col-md-3">
                   <label>Garage</label>
-                  <select class="form-control">
+                  <select class="selectpicker">
                     <option>Choose...</option>
                     <option>...</option>
                   </select>
                </div>
                <div class="form-group col-md-3">
                   <label>Basement Type</label>
-                  <select class="form-control">
+                  <select class="selectpicker">
                     <option>Choose...</option>
                     <option>...</option>
                   </select>
                </div>
                <div class="form-group col-md-3">
                   <label>Maintenance Fees (If Applicable)</label>
-                  <select class="form-control">
+                  <select class="selectpicker">
                     <option>Choose...</option>
                     <option>...</option>
                   </select>
                </div>
                <div class="form-group col-md-3">
                   <label>When are you planning to move?</label>
-                  <select class="form-control">
+                  <select class="selectpicker">
                     <option>Choose...</option>
                     <option>...</option>
                   </select>

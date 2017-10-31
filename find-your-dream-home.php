@@ -56,25 +56,35 @@ include(__DIR__.'/include/header.php');?>
 				    </div>
 				    <div class="form-group col-md-6">
 				      <label>Desired Price Range*</label>
-				      <input type="text" class="form-control" placeholder="Last name">
+				      <select class="selectpicker">
+				      	<option></option>
+				      </select>
 				    </div>
 				  </div>
 				  <div class="form-row">
 				  	<div class="form-group col-md-3">
 				      <label>Desired Parking Spaces</label>
-				      <input type="text" class="form-control" placeholder="Last name">
+				      <select class="selectpicker">
+				      	<option></option>
+				      </select>
 				    </div>
 				    <div class="form-group col-md-3">
 				    <label>Minimum Bedrooms</label>
-				      <input type="text" class="form-control" placeholder="Minimum Bedrooms">
+				      <select class="selectpicker">
+				      	<option></option>
+				      </select>
 				    </div>
 				    <div class="form-group col-md-3">
 				     <label>Minimum Bathrooms</label>
-				      <input type="text" class="form-control" placeholder="Minimum Bathrooms">
+				      <select class="selectpicker">
+				      	<option></option>
+				      </select>
 				    </div>
 				    <div class="form-group col-md-3">
 				     <label>Desired Basement</label>
-				      <input type="text" class="form-control" placeholder="Desired Basement">
+				      <select class="selectpicker">
+				      	<option></option>
+				      </select>
 				    </div>
 				  </div>
 				  <div class="form-row">

@@ -62,13 +62,13 @@
             <p class="text-bold">D) Lines of Credit </p>
             <p>Line of Credit is becoming an innovative way to finance your home purchase. You can take the amount you need from the credit limit that you were granted. You only pay interest on what you use and this money can be put towards things like home renovations, a child’s education, and debt consolidation</p>
          </div>
-         <div class="col-xl-6 col-sm-6">
+         <div class="col-xl-6 col-md-6">
             <div class="block_title">
                <h4><strong>Step 3:</strong> Mortgage Submission and Approval</h4>
             </div>
             <p>Once you select the appropriate mortgage program, you will submit this information to your mortgage associate along with any other required documentation. You will then wait for the mortgage approval from the mortgage associate either through email or fax. After the approval, the associate will also review your commitment to the mortgage. Any additional documents that are required by the lender should be sent to the associate no later than 10 days after the approval.</p>
          </div>
-         <div class="col-xl-6 col-sm-6">
+         <div class="col-xl-6 col-md-6">
             <div class="block_title">
                <h4><strong>Step 4:</strong> Lawyer</h4>
             </div>

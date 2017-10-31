@@ -16,7 +16,7 @@ include(__DIR__.'/include/header.php');?>
   <div class="container">
     <div class="row">
         <div class="col-md-8">
-            <div class="about-content">
+            <div class="about-content padding-bottom-30">
                 <p>There is a big difference between buying a home and selling a home. They require tailored duties and services at each stage of the process.</p>
                 <h4>If you are selling a house I will:</h4>
                 <ul>

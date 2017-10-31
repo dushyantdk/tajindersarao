@@ -21,7 +21,7 @@
          <div class="col-xl-12 text-center">
             <p>As your personal guide and trustworthy agent, I strive to give you the best of the best. In the years that I’ve spent in the industry, homebuyers have always asked me “What do I need to do when I buy a house?”. I’ve composed a step-by-step guide that organizes the buying process to make buying a house simple and fun!</p>
          </div>
-         <div class="col-xl-6 col-sm-6">
+         <div class="col-xl-6 col-md-6">
             <div class="block_title">
                <h4><strong>Step 1:</strong> Decide to Buy </h4>
             </div>
@@ -29,7 +29,7 @@
             <p>You also have to familiarize yourself with different types of ownership as well to help narrow down the perfect home. Freehold is when it’s all yours, a condo is when you take care of the inside and pay your fees to an association, and co-op is similar to a condo but you rent a unit in the building and pay maintenance and repair fees.</p>
             <p>Once you have narrowed down some qualities, its time to go looking for a home!</p>
          </div>
-         <div class="col-xl-6 col-sm-6">
+         <div class="col-xl-6 col-md-6">
             <div class="block_title">
                <h4><strong>Step 2:</strong> Hire an Agent</h4>
             </div>
@@ -43,7 +43,7 @@
             </ul>
             <p>They have to be a trained professional who knows your area inside out. A great agent is someone who offers you quality services to help you accomplish your goal.</p>
          </div>
-         <div class="col-xl-6 col-sm-6">
+         <div class="col-xl-6 col-md-6">
             <div class="block_title">
                <h4><strong>Step 3:</strong> Find your Home</h4>
             </div>
@@ -51,7 +51,7 @@
             <p>One thing to keep in mind is your down payments. This is a percentage of the total cost of a home that you’ll need to pay. The more money you put down, the more you’ll save on monthly payments and cost of borrowing. Another important aspect is getting pre-approved for a mortgage. When the lender approves you for a mortgage, it gives you an idea of how much you can afford to buy your new house.</p>
             <p>Keeping these things in mind, you are free to go window shopping! You can go searching for houses according to the different neighbourhood surrounding you, check newspaper listings, websites, or even drop by any open houses that are being held in your area. Looking for houses can be really fun and exciting! You can browse listings using the smart listings search on my website, <a href="#">here</a>.</p>
          </div>
-         <div class="col-xl-6 col-sm-6">
+         <div class="col-xl-6 col-md-6">
             <div class="block_title">
                <h4><strong>Step 4:</strong> Make an Offer Now</h4>
             </div>
@@ -59,7 +59,7 @@
             <p>Not only is it about the price of the house but you have to carefully look at the other details included in this sale. Appliances, chandeliers, or even minor renovations can also be part of the deal. Shorter or longer closing dates can also be specified in the offer.</p>
             <p>If there is something in the offer that doesn’t satisfy the seller, counter offers or negotiations can also be presented to help get a price that you think is fair.</p>
          </div>
-         <div class="col-xl-12 col-sm-12">
+         <div class="col-xl-12 col-md-12">
             <div class="block_title">
                <h4><strong>Step 5:</strong> Close the Sale</h4>
             </div>

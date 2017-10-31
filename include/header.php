@@ -92,14 +92,30 @@
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mortgage Hub</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="mortgage-hub.php">Mortgage Hub</a>
+                <a class="dropdown-item" href="#">Mortgage Rate Comparison</a>
+                <a class="dropdown-item" href="#">Mortgage Rates Chart</a>
               </div>
             </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">Calculators</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">Helpful Information</a>
-			      </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Calculators</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Mortgage Calculator</a>
+                <a class="dropdown-item" href="#">CMHC Insurance Calculator</a>
+                <a class="dropdown-item" href="#">Land Transfer Tax Calculator</a>
+                <a class="dropdown-item" href="#">Mortgage Affordability Calculator</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Helpful Information</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="real-estate-news.php">Real Estate News</a>
+                <a class="dropdown-item" href="financial-information.php">Financial Information</a>
+                <a class="dropdown-item" href="local-information.php">Local Information</a>
+                <a class="dropdown-item" target="_blank" href="http://www.consumer.equifax.ca/home/en_ca">Credit History</a>
+                <a class="dropdown-item" href="government.php">Government</a>
+                <a class="dropdown-item" href="utilities.php">Utilities</a>
+              </div>
+            </li>
 			      <li class="nav-item">
 			        <a class="nav-link" href="contact.php">Contact</a>
 			      </li>

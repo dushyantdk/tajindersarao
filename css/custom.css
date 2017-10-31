@@ -56,6 +56,7 @@ nav.navbar {
 .navbar-light .navbar-nav .nav-link {
     padding: 10px 15px;
     color:#181818;
+    border-bottom: 2px solid transparent;
 }
 
 .navbar-light .navbar-nav li.nav-item a.active {
@@ -64,6 +65,17 @@ nav.navbar {
 
 .navbar-light .navbar-nav li.nav-item a:hover {
     border-bottom: 2px solid #de5b2f;
+}
+
+.dropdown-item.active, .dropdown-item{
+    border-bottom: 2px solid transparent;
+}
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #de5b2f !important;
 }
 
 .carousel-caption {
@@ -1044,6 +1056,48 @@ form.owner-detail {
     border: 1px solid #ddd;
 }
 
+.newsblock {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #ddd;
+    padding: 0 0 10px 0;
+    margin-bottom: 10px;
+}
+
+.newsblock h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.newsblock a {
+    color: #de5b2f;
+}
+
+.newsblock p {
+    margin: 0;
+    font-size: 14px;
+    color: #444;
+    padding: 5px 0 0 0;
+    line-height: 14px;
+}
+
+.info-block {
+    width: 100%;
+    float: left;
+    border: 1px solid #ddd;
+    min-height: 100px;
+    color:#181818;
+    margin-bottom:30px;
+}
+.info-block:hover{
+color: #fff;
+background: #de5b2f;
+} 
+
+.innner-minheight{
+    min-height:295px;
+}
+
 
 @media only screen  and (max-width : 1224px) {
   .navbar-light .navbar-nav .nav-link {
@@ -1178,6 +1232,9 @@ ol.carousel-indicators{
   }
   .properties_details .img_holder {
     width: 240px;
+  }
+  .property-tool-panel ul li{
+    width: 100%;
   }
 }
 
